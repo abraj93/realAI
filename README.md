@@ -31,6 +31,8 @@ This document provides a **complete list of tools, libraries, platforms, and SDK
 - Backendless
 - Zapier / Make.com
 - Appsmith / ToolJet / Budibase
+- Stacker
+- OutSystems
 
 ### 🤖 AI & ML APIs
 - OpenAI / Anthropic / Cohere / Groq
@@ -53,6 +55,7 @@ This document provides a **complete list of tools, libraries, platforms, and SDK
 - Draftbit
 - Thunkable
 - Retool
+- Softr.io
 
 ---
 
@@ -76,12 +79,13 @@ This document provides a **complete list of tools, libraries, platforms, and SDK
 - Railway / Qovery / Fly.io
 - AWS Amplify
 - Docker / Kubernetes (advanced)
+- GitHub Actions / CircleCI / GitLab CI
 
 ---
 
 ## 💳 Payments & Billing
 - Stripe
-- Razorpay / Cashfree
+- Razorpay / Cashfree / Paytm
 - Lemon Squeezy
 - Paddle
 - RevenueCat
@@ -104,7 +108,7 @@ This document provides a **complete list of tools, libraries, platforms, and SDK
 - Mixpanel / Amplitude
 - Hotjar / Clarity
 - LogRocket / Sentry
-- Plausible / Umami
+- Plausible / Umami / Ackee
 
 ---
 
@@ -114,30 +118,32 @@ This document provides a **complete list of tools, libraries, platforms, and SDK
 - Payload CMS
 - Contentful / Storyblok
 - DatoCMS
+- WordPress Headless
 
 ---
 
 ## 💬 Messaging & Notifications
 - Pusher / Ably / Socket.io
 - Firebase Realtime / Supabase Realtime
-- SendGrid / Resend
-- Twilio / WhatsApp API
+- SendGrid / Resend / Mailgun
+- Twilio / WhatsApp API / Vonage
 - OneSignal / Push Protocol
 
 ---
 
 ## 🔎 SEO & Marketing
 - Ahrefs / SEMrush / Ubersuggest
-- Surfer SEO / Clearscope
-- GA4 / Mailchimp / Brevo
+- Surfer SEO / Clearscope / Frase
+- GA4 / Mailchimp / ConvertKit / Brevo
 
 ---
 
 ## 🧪 Testing Tools
 - Jest / Vitest / React Testing Library
-- Cypress / Playwright
+- Cypress / Playwright / TestCafe
 - Percy / Chromatic
 - Postman / Hoppscotch
+- Storybook
 
 ---
 
@@ -152,6 +158,7 @@ This document provides a **complete list of tools, libraries, platforms, and SDK
 - Transformers.js
 - Whisper.cpp / WebWhisper
 - onnxruntime-web
+- FastEmbed (Vercel)
 
 ### AI Providers
 - OpenAI (GPT-4o)
@@ -165,6 +172,7 @@ This document provides a **complete list of tools, libraries, platforms, and SDK
 - Replicate
 - Runway ML / Pika Labs
 - Sora (when available)
+- ControlNet / Diffusion.js / ImageGen
 
 ### Embedding Models
 - OpenAI
@@ -180,6 +188,7 @@ This document provides a **complete list of tools, libraries, platforms, and SDK
 - ChromaDB
 - Qdrant
 - Typesense (hybrid)
+- Milvus / Zilliz
 
 ### RAG Frameworks
 - LangChain / LangGraph
@@ -187,24 +196,35 @@ This document provides a **complete list of tools, libraries, platforms, and SDK
 - Haystack
 - FlowiseAI
 - SuperAgent / CrewAI / AutoGen
+- RAGStack
 
 ### Prompt/LLM Management
 - PromptLayer
 - Promptable
 - Langfuse
 - Helicone
-- OpenPipe
+- OpenPipe.ai
+- PromptSmithy
+
+---
+
+## 🧠 Agentic / Autonomous AI
+- CrewAI
+- AutoGen / AgentHub
+- OpenDevin / Smol AI / Devin AI
+- AutoGPT / BabyAGI
 
 ---
 
 ## 🧱 AI-Enabled UI Components
 - Chatbots: Botpress, Typebot, Tidio, Intercom AI
-- AI Search: Algolia AI, Typesense
-- AI Forms: Tally + GPT
-- AI Voice: AssemblyAI, ElevenLabs
+- AI Search: Algolia AI, Typesense, Metaphor Systems
+- AI Forms: Tally + GPT, FormWise
+- AI Voice: AssemblyAI, Whisper API, ElevenLabs
 - AI Transcription: Whisper, Deepgram
 - AI Video: Synthesia, Pictory, HeyGen
-- Code Explainers: Codeium, Cursor.sh
+- AI Code Explainers: Codeium, Cursor.sh, Codium AI
+- LottieAI / Iconify AI / Builder.io + GPT
 
 ---
 
@@ -212,19 +232,51 @@ This document provides a **complete list of tools, libraries, platforms, and SDK
 - VWO / Optimizely
 - Split.io
 - GrowthBook
-- Flagsmith
+- Flagsmith / Unleash
 
 ---
 
-## 🌍 i18n / Internationalization
-- i18next / LinguiJS / Tolgee / Locize
+## 🌍 Internationalization (i18n)
+- i18next / React-i18next
+- LinguiJS
+- Tolgee / Locize / Crowdin
 
 ---
 
-## 🧠 Starter Templates
+## 📜 Docs & Support
+- Docusaurus / GitBook / Docsify
+- ReadMe.com
+- HelpScout / Crisp / Intercom / Tawk.to
+- Zendesk
+
+---
+
+## 🎨 Design & Prototyping
+- Figma / Penpot / Sketch / Adobe XD
+- Anima / Framer / Canva
+- LottieFiles / Iconify
+
+---
+
+## 📂 File Management
+- Firebase Storage / Supabase Storage
+- Uploadcare / FileStack / Transloadit
+- ImageKit / Cloudinary / AWS S3
+
+---
+
+## 💼 Productivity Tools
+- Linear / Jira / ClickUp / Notion
+- Trello / Asana / Slack / Discord
+- Loom / CleanShot X / Miro / Whimsical
+
+---
+
+## 🧠 Starter Templates & Boilerplates
 - [Vercel AI Starter](https://vercel.com/templates/ai)
 - [LangChainJS + Next.js](https://github.com/langchain-ai/langchainjs)
 - [Next.js SaaS Boilerplate](https://github.com/async-labs/saas)
+- [Next.js + LangChain + Supabase Starter](https://github.com/dabit3/ai-saas)
 
 ---
 
